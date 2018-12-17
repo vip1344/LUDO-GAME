@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LUDO GAME</title>
+  <link rel="stylesheet" href="tex.css">
+<script src="jquery-3.3.1.min.js"></script>
+<script src="lud.js"></script>
+
+</head>
+<body>
+      <div id="board"></div>
+      <div id="dice" onclick="randomNum()"></div>
+       <div class="g1" onclick="movePawn('Green',1)" style="background-color:green;"></div>
+       <div class="g2" onclick="movePawn('Green',2)" style="background-color:green;"></div>
+       <div class="g3" onclick="movePawn('Green',3)" style="background-color:green;"></div>
+       <div class="g4" onclick="movePawn('Green',4)" style="background-color:green;"></div>
+       <div class="r1" onclick="movePawn('Red',1)" style="background-color:red;"></div>
+       <div class="r2" onclick="movePawn('Red',2)" style="background-color:red;"></div>
+       <div class="r3" onclick="movePawn('Red',3)" style="background-color:red;"></div>
+       <div class="r4" onclick="movePawn('Red',4)" style="background-color:red;"></div>
+       <div class="b1" onclick="movePawn('Blue',1)" style="background-color:blue;"></div>
+       <div class="b2" onclick="movePawn('Blue',2)" style="background-color:blue;"></div>
+       <div class="b3" onclick="movePawn('Blue',3)" style="background-color:blue;"></div>
+       <div class="b4" onclick="movePawn('Blue',4)" style="background-color:blue;"></div>  
+       <div class="y1" onclick="movePawn('Yellow',1)" style="background-color:black;"></div>
+       <div class="y2" onclick="movePawn('Yellow',2)" style="background-color:yellow;"></div>
+       <div class="y3" onclick="movePawn('Yellow',3)" style="background-color:yellow;"></div>
+       <div class="y4" onclick="movePawn('Yellow',4)" style="background-color:yellow;"></div>
+       <div id="turn" style="position: absolute;height:100px;top:50px;left:800px;">
+           <h2>It's <h1 id="bead" style="color:green">Green</h1> turn</h2>
+            <h3>STUCKED</h3>
+       </div>
+ </body>
+</html>

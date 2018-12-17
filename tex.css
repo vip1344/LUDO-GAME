@@ -1,0 +1,156 @@
+#board{
+    background-image: url(board.gif);
+    background-size: 680px 680px;
+    background-repeat:no-repeat;
+    height: 680px;
+    width:700px;
+}
+#dice{
+    position: absolute;
+    background-image: url(Images/dice.gif);
+    background-size: 300px 300px;
+    background-repeat:no-repeat;
+    height: 300px;
+    width:300px;
+    bottom:100px;
+    left:700px;
+    
+     
+}
+.g1{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:60px;
+    left:117px;
+}
+
+.g2{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+    top:180px;left:117px;
+}
+
+.g3{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:120px;left:57px;
+}
+
+.g4{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:120px;left:177px;
+}
+.r1{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+    top:60px;left:550px;
+}
+
+.r2{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:180px;left:550px;
+}
+
+.r3{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:120px;left:490px;
+}
+
+
+.r4{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:120px;left:610px;
+}
+.b1{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+    top:610px;left:550px;
+}
+
+.b2{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:490px;left:550px;
+}
+
+.b3{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+    top:550px;left:610px;
+}
+
+.b4{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:550px;left:490px;
+}
+.y1{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+    top:550px;left:57px;
+}
+
+.y2{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:550px;left:177px;
+}
+
+.y3{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:490px;left:117px;
+}
+
+.y4{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+
+    top:610px;left:117px;
+}
